@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 function ElAzkar() {
@@ -10,7 +11,7 @@ function ElAzkar() {
   };
   return (
     <>
-      <div className="" dir="rtl" lang="ar">
+      <Container className="" dir="rtl" lang="ar">
         <div className="text-front">
           <h2>حنقول 100 مره لكل ذكر الصبح و قبل المغرب</h2>
         </div>
@@ -70,7 +71,7 @@ function ElAzkar() {
             الرجوع للصفحة الرئيسية
           </button>
         </div>
-      </div>
+      </Container>
     </>
   );
 }

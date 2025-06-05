@@ -63,6 +63,7 @@ body {
   justify-content: center;     
   align-items: center; 
   margin-top: 5%;
+  text-align: center; 
 }
 
 .checkbox {
@@ -105,4 +106,41 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .btn-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.checkbox-taskes{
+   display: flex;
+  flex-direction: column; 
+  justify-content: center;     
+  align-items: center; 
+  /* width: 500px; */
+  /* margin-right: 20px; */
+}
+}
+
+
+@media (min-width: 344px) and (max-width: 576px) {
+  .btn-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.checkbox-taskes{
+   display: flex;
+  flex-direction: column; 
+  justify-content: center;     
+  align-items: center; 
+  /* width: 290px;
+  margin-right: 10px; */
+}
 }
